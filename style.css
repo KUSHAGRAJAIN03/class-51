@@ -1,0 +1,36 @@
+h1{color: #f97800;}
+*{border: solid;}
+p{color: #006400;}
+p{border: dotted;}
+a{color: #a02a2a;}
+a{border: #8b008b;}
+.header{
+    display:flex;
+    background: repeating-linear-gradient( #0025cc, #66ff99,#7b0000,#ff69b4);
+    border-color: #7b0000;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    background:repeating-radial-gradient(red, yellow 10%, green 15%,#00f9f9 20%);
+    border: #b8760b;
+    justify-content: center;
+}
+.link{
+    display: flex;
+    background: #e9967a;
+    border-color: #2f4f4f;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.item{
+    flex-basis: 50%;
+    justify-content: center;
+}
+.img{
+    display: flex;
+    background: #7b0000;
+    border: #ff69b4;
+    justify-content: space-between;
+    flex-direction: column;
+}
